@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/p_imagev"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/ic_baseline_account_circle_24"/>
+
+    <TextView
+        android:id="@+id/p_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Full Name"
+        android:textStyle="italic"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/p_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_marginRight="20dp"/>
+
+
+    <TextView
+        android:id="@+id/emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="Email Address"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"/>
+
+    <EditText
+        android:id="@+id/p_emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="Phone Number"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/p_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/plateno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="Vehicle Plate No"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:drawableStart="@drawable/ic_baseline_directions_car_24"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/p_plateno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="15dp"
+        android:onClick="update"
+        android:text="Save"
+        android:textAllCaps="false" />
+
+</LinearLayout>
+
+
+

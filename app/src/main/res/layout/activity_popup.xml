@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopupActivity"
+    android:background="@color/browser_actions_bg_grey"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/tv_vehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add Vehicle"
+        android:gravity="center"
+        android:textSize="13dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/ed_vehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:hint="Enter Vehicle Plate no"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textSize="12dp" />
+
+</LinearLayout>

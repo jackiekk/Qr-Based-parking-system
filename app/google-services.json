@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620090473181",
+    "project_id": "mmustpark-fee44",
+    "storage_bucket": "mmustpark-fee44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620090473181:android:63b8ad7eabbbd78e503934",
+        "android_client_info": {
+          "package_name": "com.example.mmustpark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620090473181-03dsas8b9u0tae417761nu5t0esba52i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGr41_WE_Q-1bkXfl5qjtfNM-ryjj6vrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620090473181-03dsas8b9u0tae417761nu5t0esba52i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
